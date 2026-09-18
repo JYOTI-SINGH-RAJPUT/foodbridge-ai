@@ -1,0 +1,102 @@
+.role-page {
+    min-height: 100vh;
+    padding: 80px 8%;
+    background: #f4faf5;
+}
+
+.role-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.role-header h1 {
+    font-size: 42px;
+    color: #18352a;
+    margin-bottom: 15px;
+}
+
+.role-header p {
+    color: #718078;
+    font-size: 17px;
+}
+
+.role-selection-cards {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.selection-card {
+    background: white;
+    padding: 35px;
+    border-radius: 18px;
+
+    border: 1px solid #e0e9e3;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.selection-card:hover {
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 12px 30px rgba(40, 90, 60, 0.1);
+}
+
+.selection-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.selection-card h2 {
+    color: #18352a;
+    margin-bottom: 15px;
+}
+
+.selection-card p {
+    color: #718078;
+    font-size: 14px;
+    line-height: 1.6;
+
+    min-height: 70px;
+
+    margin-bottom: 25px;
+}
+
+.selection-card a {
+    display: inline-block;
+
+    padding: 11px 18px;
+
+    border-radius: 8px;
+
+    background: #35a066;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.selection-card a:hover {
+    background: #287e4f;
+}
+
+.role-footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #718078;
+}
+
+.role-footer a {
+    color: #299257;
+    text-decoration: none;
+    font-weight: bold;
+}
