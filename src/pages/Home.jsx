@@ -410,3 +410,12 @@ function Home() {
 }
 
 export default Home;
+
+
+
+// git add .
+// git commit -m "Added dashboard layout"
+// git push
+
+// Aur agar kabhi doubt ho ki kya-kya files change hui hain, pehle:
+// git status

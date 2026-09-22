@@ -1,0 +1,351 @@
+.ngo-welcome {
+  background: linear-gradient(135deg, #e8f5e9, #f4fbf5);
+  border-radius: 18px;
+  padding: 28px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.ngo-welcome h1 {
+  margin: 0 0 8px;
+  color: #174c2c;
+  font-size: 26px;
+}
+
+.ngo-welcome p {
+  margin: 0;
+  color: #5f6f64;
+}
+
+.ngo-primary-btn {
+  background: #2e7d32;
+  color: white;
+  padding: 13px 20px;
+  border-radius: 9px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.ngo-primary-btn:hover {
+  background: #256628;
+}
+
+
+/* Statistics */
+
+.ngo-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-bottom: 25px;
+}
+
+.ngo-stat-card {
+  background: white;
+  border: 1px solid #e5e9e6;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.ngo-stat-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: #eaf6ec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 23px;
+}
+
+.ngo-stat-card h3 {
+  margin: 0 0 4px;
+  font-size: 24px;
+  color: #193b27;
+}
+
+.ngo-stat-card p {
+  margin: 0;
+  color: #718078;
+  font-size: 14px;
+}
+
+
+/* Dashboard Grid */
+
+.ngo-dashboard-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 22px;
+  margin-bottom: 25px;
+}
+
+.ngo-section-card {
+  background: white;
+  border: 1px solid #e5e9e6;
+  border-radius: 16px;
+  padding: 22px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.section-header h2 {
+  margin: 0 0 5px;
+  color: #193b27;
+  font-size: 20px;
+}
+
+.section-header p {
+  margin: 0;
+  color: #7b8780;
+  font-size: 13px;
+}
+
+.section-header a {
+  color: #2e7d32;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+/* Food Items */
+
+.food-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 15px 0;
+  border-bottom: 1px solid #edf0ee;
+}
+
+.food-item:last-child {
+  border-bottom: none;
+}
+
+.food-icon {
+  width: 48px;
+  height: 48px;
+  background: #f2f8f3;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.food-info {
+  flex: 1;
+}
+
+.food-info h3 {
+  margin: 0 0 4px;
+  color: #25352b;
+  font-size: 15px;
+}
+
+.food-info p {
+  margin: 0 0 6px;
+  color: #7b8780;
+  font-size: 13px;
+}
+
+.urgent-tag,
+.normal-tag {
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 20px;
+}
+
+.urgent-tag {
+  background: #fff1df;
+  color: #b65d00;
+}
+
+.normal-tag {
+  background: #eaf6ec;
+  color: #2e7d32;
+}
+
+.request-btn {
+  border: 1px solid #2e7d32;
+  background: white;
+  color: #2e7d32;
+  padding: 8px 13px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.request-btn:hover {
+  background: #eaf6ec;
+}
+
+
+/* Requests */
+
+.request-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 0;
+  border-bottom: 1px solid #edf0ee;
+}
+
+.request-item:last-child {
+  border-bottom: none;
+}
+
+.request-item h3 {
+  margin: 0 0 5px;
+  font-size: 15px;
+  color: #25352b;
+}
+
+.request-item p {
+  margin: 0;
+  color: #7b8780;
+  font-size: 13px;
+}
+
+.status-pending,
+.status-approved,
+.status-delivered {
+  font-size: 11px;
+  padding: 5px 9px;
+  border-radius: 20px;
+}
+
+.status-pending {
+  background: #fff4dc;
+  color: #a96a00;
+}
+
+.status-approved {
+  background: #e8f4ff;
+  color: #1971b8;
+}
+
+.status-delivered {
+  background: #e7f5ea;
+  color: #2e7d32;
+}
+
+
+/* Donate Surplus */
+
+.ngo-donate-card {
+  background: #193b27;
+  color: white;
+  border-radius: 17px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.donate-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.donate-icon {
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.donate-content h2 {
+  margin: 0 0 6px;
+  font-size: 20px;
+}
+
+.donate-content p {
+  margin: 0;
+  max-width: 650px;
+  color: #d8e6dc;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.donate-btn {
+  background: white;
+  color: #193b27;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+
+/* AI */
+
+.ngo-ai-card {
+  background: #f5faf6;
+  border: 1px solid #dceee0;
+  border-radius: 16px;
+  padding: 22px;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.ai-icon {
+  font-size: 28px;
+}
+
+.ngo-ai-card h2 {
+  margin: 0 0 7px;
+  color: #193b27;
+  font-size: 18px;
+}
+
+.ngo-ai-card p {
+  margin: 0;
+  color: #637169;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .ngo-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ngo-dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ngo-welcome {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .ngo-donate-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+}

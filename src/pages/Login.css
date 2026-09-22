@@ -1,211 +1,211 @@
 .login-page {
-  min-height: 100vh;
+    min-height: 100vh;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  padding: 40px 20px;
+    padding: 40px 20px;
 
-  background: #f4faf5;
+    background: #f4faf5;
 }
 
 
 .login-card {
-  width: 100%;
-  max-width: 430px;
+    width: 100%;
+    max-width: 430px;
 
-  padding: 40px;
+    padding: 40px;
 
-  background: white;
+    background: white;
 
-  border: 1px solid #e0e9e3;
+    border: 1px solid #e0e9e3;
 
-  border-radius: 18px;
+    border-radius: 18px;
 
-  box-shadow:
-    0 10px 30px rgba(40, 90, 60, 0.08);
+    box-shadow:
+        0 10px 30px rgba(40, 90, 60, 0.08);
 }
 
 
 .login-logo {
-  text-align: center;
+    text-align: center;
 
-  font-size: 22px;
+    font-size: 22px;
 
-  font-weight: bold;
+    font-weight: bold;
 
-  color: #18352a;
+    color: #18352a;
 
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 
 .login-logo span {
-  color: #35a066;
+    color: #35a066;
 }
 
 
 .login-card h1 {
-  text-align: center;
+    text-align: center;
 
-  font-size: 30px;
+    font-size: 30px;
 
-  color: #18352a;
+    color: #18352a;
 
-  margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 
 .login-subtitle {
-  text-align: center;
+    text-align: center;
 
-  color: #718078;
+    color: #718078;
 
-  font-size: 14px;
+    font-size: 14px;
 
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 
 .form-group {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 
 .form-group label {
-  display: block;
+    display: block;
 
-  margin-bottom: 7px;
+    margin-bottom: 7px;
 
-  color: #385247;
+    color: #385247;
 
-  font-size: 14px;
+    font-size: 14px;
 
-  font-weight: bold;
+    font-weight: bold;
 }
 
 
 .form-group input[type="email"],
 .form-group input[type="password"] {
-  width: 100%;
+    width: 100%;
 
-  padding: 12px 14px;
+    padding: 12px 14px;
 
-  border: 1px solid #d5e2da;
+    border: 1px solid #d5e2da;
 
-  border-radius: 8px;
+    border-radius: 8px;
 
-  font-size: 14px;
+    font-size: 14px;
 
-  outline: none;
+    outline: none;
 }
 
 
 .form-group input:focus {
-  border-color: #35a066;
+    border-color: #35a066;
 
-  box-shadow:
-    0 0 0 3px rgba(53, 160, 102, 0.1);
+    box-shadow:
+        0 0 0 3px rgba(53, 160, 102, 0.1);
 }
 
 
 .login-options {
-  display: flex;
+    display: flex;
 
-  justify-content: space-between;
+    justify-content: space-between;
 
-  align-items: center;
+    align-items: center;
 
-  margin: 5px 0 22px;
+    margin: 5px 0 22px;
 
-  font-size: 13px;
+    font-size: 13px;
 }
 
 
 .login-options label {
-  color: #718078;
+    color: #718078;
 
-  display: flex;
+    display: flex;
 
-  align-items: center;
+    align-items: center;
 
-  gap: 6px;
+    gap: 6px;
 }
 
 
 .login-options a {
-  color: #299257;
+    color: #299257;
 
-  text-decoration: none;
+    text-decoration: none;
 
-  font-weight: bold;
+    font-weight: bold;
 }
 
 
 .login-submit {
-  width: 100%;
+    width: 100%;
 
-  padding: 13px;
+    padding: 13px;
 
-  border: none;
+    border: none;
 
-  border-radius: 8px;
+    border-radius: 8px;
 
-  background: #35a066;
+    background: #35a066;
 
-  color: white;
+    color: white;
 
-  font-size: 15px;
+    font-size: 15px;
 
-  font-weight: bold;
+    font-weight: bold;
 
-  cursor: pointer;
+    cursor: pointer;
 }
 
 
 .login-submit:hover {
-  background: #287e4f;
+    background: #287e4f;
 }
 
 
 .register-text {
-  text-align: center;
+    text-align: center;
 
-  margin-top: 25px;
+    margin-top: 25px;
 
-  color: #718078;
+    color: #718078;
 
-  font-size: 14px;
+    font-size: 14px;
 }
 
 
 .register-text a {
-  color: #299257;
+    color: #299257;
 
-  text-decoration: none;
+    text-decoration: none;
 
-  font-weight: bold;
+    font-weight: bold;
 
-  margin-left: 5px;
+    margin-left: 5px;
 }
 
 
 .back-home {
-  display: block;
+    display: block;
 
-  text-align: center;
+    text-align: center;
 
-  margin-top: 18px;
+    margin-top: 18px;
 
-  color: #718078;
+    color: #718078;
 
-  font-size: 13px;
+    font-size: 13px;
 
-  text-decoration: none;
+    text-decoration: none;
 }
 
 
 .back-home:hover {
-  color: #299257;
+    color: #299257;
 }

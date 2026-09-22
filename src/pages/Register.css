@@ -1,208 +1,208 @@
 .register-page {
-  min-height: 100vh;
+    min-height: 100vh;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  padding: 50px 20px;
+    padding: 50px 20px;
 
-  background: #f4faf5;
+    background: #f4faf5;
 }
 
 
 .register-card {
-  width: 100%;
-  max-width: 480px;
+    width: 100%;
+    max-width: 480px;
 
-  background: white;
+    background: white;
 
-  padding: 40px;
+    padding: 40px;
 
-  border-radius: 18px;
+    border-radius: 18px;
 
-  border: 1px solid #e0e9e3;
+    border: 1px solid #e0e9e3;
 
-  box-shadow:
-    0 10px 30px rgba(40, 90, 60, 0.08);
+    box-shadow:
+        0 10px 30px rgba(40, 90, 60, 0.08);
 }
 
 
 .register-logo {
-  text-align: center;
+    text-align: center;
 
-  font-size: 22px;
-  font-weight: bold;
+    font-size: 22px;
+    font-weight: bold;
 
-  color: #18352a;
+    color: #18352a;
 
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .register-logo span {
-  color: #35a066;
+    color: #35a066;
 }
 
 
 .register-card h1 {
-  text-align: center;
+    text-align: center;
 
-  font-size: 30px;
+    font-size: 30px;
 
-  color: #18352a;
+    color: #18352a;
 
-  margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 
 .register-subtitle {
-  text-align: center;
+    text-align: center;
 
-  color: #35a066;
+    color: #35a066;
 
-  font-weight: bold;
+    font-weight: bold;
 
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 
 .form-group {
-  margin-bottom: 18px;
+    margin-bottom: 18px;
 }
 
 
 .form-group label {
-  display: block;
+    display: block;
 
-  margin-bottom: 7px;
+    margin-bottom: 7px;
 
-  color: #385247;
+    color: #385247;
 
-  font-size: 14px;
+    font-size: 14px;
 
-  font-weight: bold;
+    font-weight: bold;
 }
 
 
 .form-group input {
-  width: 100%;
+    width: 100%;
 
-  padding: 12px 14px;
+    padding: 12px 14px;
 
-  border: 1px solid #d5e2da;
+    border: 1px solid #d5e2da;
 
-  border-radius: 8px;
+    border-radius: 8px;
 
-  font-size: 14px;
+    font-size: 14px;
 
-  outline: none;
+    outline: none;
 }
 
 
 .form-group input:focus {
-  border-color: #35a066;
+    border-color: #35a066;
 
-  box-shadow:
-    0 0 0 3px rgba(53, 160, 102, 0.1);
+    box-shadow:
+        0 0 0 3px rgba(53, 160, 102, 0.1);
 }
 
 
 .register-btn {
-  width: 100%;
+    width: 100%;
 
-  padding: 13px;
+    padding: 13px;
 
-  margin-top: 8px;
+    margin-top: 8px;
 
-  border: none;
+    border: none;
 
-  border-radius: 8px;
+    border-radius: 8px;
 
-  background: #35a066;
+    background: #35a066;
 
-  color: white;
+    color: white;
 
-  font-size: 15px;
+    font-size: 15px;
 
-  font-weight: bold;
+    font-weight: bold;
 
-  cursor: pointer;
+    cursor: pointer;
 }
 
 
 .register-btn:hover {
-  background: #287e4f;
+    background: #287e4f;
 }
 
 
 .login-text {
-  text-align: center;
+    text-align: center;
 
-  color: #718078;
+    color: #718078;
 
-  font-size: 14px;
+    font-size: 14px;
 
-  margin-top: 25px;
+    margin-top: 25px;
 }
 
 
 .login-text a {
-  color: #299257;
+    color: #299257;
 
-  font-weight: bold;
+    font-weight: bold;
 
-  text-decoration: none;
+    text-decoration: none;
 
-  margin-left: 5px;
+    margin-left: 5px;
 }
 
 
 .back-link {
-  display: block;
+    display: block;
 
-  text-align: center;
+    text-align: center;
 
-  margin-top: 18px;
+    margin-top: 18px;
 
-  color: #718078;
+    color: #718078;
 
-  font-size: 13px;
+    font-size: 13px;
 
-  text-decoration: none;
+    text-decoration: none;
 }
 
 
 .back-link:hover {
-  color: #299257;
+    color: #299257;
 }
 
 
 .invalid-role {
-  min-height: 100vh;
+    min-height: 100vh;
 
-  display: flex;
+    display: flex;
 
-  flex-direction: column;
+    flex-direction: column;
 
-  justify-content: center;
+    justify-content: center;
 
-  align-items: center;
+    align-items: center;
 
-  gap: 20px;
+    gap: 20px;
 
-  background: #f4faf5;
+    background: #f4faf5;
 }
 
 
 .invalid-role h2 {
-  color: #18352a;
+    color: #18352a;
 }
 
 
 .invalid-role a {
-  color: #299257;
+    color: #299257;
 
-  text-decoration: none;
+    text-decoration: none;
 
-  font-weight: bold;
+    font-weight: bold;
 }
