@@ -7,6 +7,15 @@ import Register from "./pages/Register";
 import RestaurantDashboard from "./pages/restaurant/RestaurantDashboard";
 import CreateDonation from "./pages/restaurant/CreateDonation";
 import NGODashboard from "./pages/ngo/NGODashboard";
+import AvailableFood from "./pages/ngo/AvailableFood";
+import MyRequests from "./pages/ngo/MyRequests";
+import DonateSurplus from "./pages/ngo/DonateSurplus";
+import VolunteerDashboard from "./pages/volunteer/VolunteerDashboard";
+import AvailablePickups from "./pages/volunteer/AvailablePickups";
+import MyPickups from "./pages/volunteer/MyPickups";
+import History from "./pages/volunteer/History";
+import VolunteerMap from "./pages/volunteer/VolunteerMap";
+import MyImpact from "./pages/volunteer/MyImpact";
 
 function App() {
   return (
@@ -33,8 +42,53 @@ function App() {
         />
 
         <Route
-  path="/dashboard/ngo"
-  element={<NGODashboard />}
+          path="/dashboard/ngo"
+          element={<NGODashboard />}
+        />
+
+        <Route
+          path="/ngo/available-food"
+          element={<AvailableFood />}
+        />
+
+        <Route
+          path="/ngo/requests"
+          element={<MyRequests />}
+        />
+
+        <Route
+          path="/ngo/donate-food"
+          element={<DonateSurplus />}
+        />
+
+        <Route
+          path="/dashboard/volunteer"
+          element={<VolunteerDashboard />}
+        />
+
+        <Route
+          path="/volunteer/pickups"
+          element={<AvailablePickups />}
+        />
+
+        <Route
+          path="/volunteer/my-pickups"
+          element={<MyPickups />}
+        />
+
+        <Route
+          path="/volunteer/history"
+          element={<History />}
+        />
+
+        <Route
+          path="/map"
+          element={<VolunteerMap />}
+        />
+
+        <Route
+    path="/impact"
+    element={<MyImpact />}
 />
 
       </Routes>

@@ -1,0 +1,262 @@
+.history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.history-header h1 {
+    margin: 0 0 8px;
+    color: #123f32;
+    font-size: 28px;
+}
+
+.history-header p {
+    margin: 0;
+    color: #405c54;
+    font-size: 15px;
+}
+
+.history-filter select {
+    padding: 11px 14px;
+    background: white;
+    color: #263f38;
+    border: 1px solid #d8e3de;
+    border-radius: 9px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.history-summary {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+    margin-bottom: 25px;
+}
+
+.history-summary-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-width: 0;
+    padding: 18px;
+    background: white;
+    border: 1px solid #e3ebe7;
+    border-radius: 14px;
+}
+
+.history-summary-icon {
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f8f3;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.history-summary-card strong {
+    display: block;
+    margin-bottom: 3px;
+    color: #123f32;
+    font-size: 21px;
+}
+
+.history-summary-card span {
+    display: block;
+    color: #526b64;
+    font-size: 11px;
+}
+
+.history-section {
+    background: white;
+    border: 1px solid #e3ebe7;
+    border-radius: 16px;
+    padding: 22px;
+}
+
+.history-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.history-section-header h2 {
+    margin: 0 0 5px;
+    color: #123f32;
+    font-size: 19px;
+}
+
+.history-section-header p {
+    margin: 0;
+    color: #526b64;
+    font-size: 13px;
+}
+
+.completed-count {
+    padding: 7px 11px;
+    background: #edf8f0;
+    color: #28723c;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.history-list {
+    width: 100%;
+}
+
+.history-item {
+    display: grid;
+    grid-template-columns: 52px minmax(0, 1fr) 100px 95px;
+    align-items: center;
+    gap: 18px;
+    padding: 18px 0;
+    border-top: 1px solid #edf1ef;
+}
+
+.history-food-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f8f3;
+    border-radius: 11px;
+    font-size: 24px;
+}
+
+.history-food-info {
+    min-width: 0;
+}
+
+.history-food-info h3 {
+    margin: 0 0 5px;
+    color: #123f32;
+    font-size: 15px;
+}
+
+.history-food-info p {
+    margin: 0 0 5px;
+    color: #405c54;
+    font-size: 12px;
+}
+
+.history-food-info small {
+    color: #526b64;
+    font-size: 10px;
+}
+
+.history-distance {
+    text-align: center;
+}
+
+.history-distance span {
+    display: block;
+    margin-bottom: 4px;
+    color: #526b64;
+    font-size: 10px;
+}
+
+.history-distance strong {
+    color: #263f38;
+    font-size: 13px;
+}
+
+.history-status {
+    text-align: center;
+    padding: 7px 9px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.history-status.completed {
+    background: #e9f7ed;
+    color: #28723c;
+}
+
+.history-impact-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+    padding: 20px;
+    background: #eef8f1;
+    border: 1px solid #d5eadb;
+    border-radius: 14px;
+}
+
+.impact-icon {
+    width: 47px;
+    height: 47px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 10px;
+    font-size: 23px;
+}
+
+.history-impact-card h2 {
+    margin: 0 0 5px;
+    color: #123f32;
+    font-size: 17px;
+}
+
+.history-impact-card p {
+    margin: 0;
+    color: #405c54;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+@media (max-width: 1000px) {
+    .history-summary {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .history-item {
+        grid-template-columns: 52px minmax(0, 1fr) 90px;
+    }
+
+    .history-status {
+        grid-column: 3;
+    }
+}
+
+@media (max-width: 700px) {
+    .history-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .history-summary {
+        grid-template-columns: 1fr;
+    }
+
+    .history-item {
+        grid-template-columns: 50px minmax(0, 1fr);
+        gap: 12px;
+    }
+
+    .history-distance,
+    .history-status {
+        grid-column: 2;
+        text-align: left;
+    }
+
+    .history-status {
+        width: fit-content;
+    }
+
+    .history-impact-card {
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,391 @@
+.my-requests-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.my-requests-header h1 {
+    margin: 0 0 8px;
+    font-size: 28px;
+    color: #123f32 !important;
+    background: transparent !important;
+    text-shadow: none !important;
+    -webkit-text-fill-color: #123f32 !important;
+    font-weight: 700;
+}
+
+.my-requests-header p {
+    margin: 0;
+    color: #777;
+}
+
+.find-food-btn {
+    background: #2e7d32;
+    color: white;
+    text-decoration: none;
+    padding: 13px 20px;
+    border-radius: 9px;
+    font-weight: 600;
+    transition: background 0.2s ease;
+}
+
+.find-food-btn:hover {
+    background: #256628;
+}
+
+
+/* ================================
+   Summary Cards
+================================ */
+
+.request-summary {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    margin-bottom: 25px;
+}
+
+.request-summary-card {
+    background: white;
+    border: 1px solid #e8e8e8;
+    border-radius: 14px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-sizing: border-box;
+}
+
+.request-summary-card > span {
+    font-size: 28px;
+    flex-shrink: 0;
+}
+
+.request-summary-card h3 {
+    margin: 0 0 4px;
+    font-size: 24px;
+    color: #123f32;
+}
+
+.request-summary-card p {
+    margin: 0;
+    color: #777;
+    font-size: 13px;
+}
+
+
+/* ================================
+   Requests Section
+================================ */
+
+.requests-section {
+    background: white;
+    border: 1px solid #e8e8e8;
+    border-radius: 16px;
+    padding: 22px;
+    box-sizing: border-box;
+}
+
+.requests-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.requests-section-header h2 {
+    margin: 0 0 5px;
+    color: #123f32 !important;
+    background: transparent !important;
+    opacity: 1 !important;
+    text-shadow: none !important;
+    -webkit-text-fill-color: #123f32 !important;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.requests-section-header p {
+    margin: 0;
+    color: #777;
+    font-size: 14px;
+}
+
+.requests-section-header select {
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: white;
+    color: #263f38;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+/* ================================
+   Request Row
+================================ */
+
+.request-row {
+    display: grid;
+    grid-template-columns: 55px minmax(0, 1fr) 120px 100px;
+    align-items: center;
+    gap: 18px;
+    padding: 18px 0;
+    border-top: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+.request-food-icon {
+    width: 50px;
+    height: 50px;
+    background: #f1f8f3;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 25px;
+    flex-shrink: 0;
+}
+
+.request-food-info {
+    min-width: 0;
+}
+
+.request-food-info h3 {
+    margin: 0 0 5px;
+    font-size: 16px;
+    color: #123f32;
+}
+
+.request-food-info p {
+    margin: 0 0 4px;
+    color: #555;
+    font-size: 13px;
+}
+
+.request-food-info small {
+    color: #999;
+}
+
+
+/* ================================
+   Quantity
+================================ */
+
+.request-quantity {
+    min-width: 0;
+}
+
+.request-quantity span {
+    display: block;
+    color: #999;
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+
+.request-quantity strong {
+    font-size: 13px;
+    color: #123f32;
+}
+
+
+/* ================================
+   Status
+================================ */
+
+.request-status {
+    text-align: center;
+    padding: 7px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.request-status.pending {
+    background: #fff5df;
+    color: #a66a00;
+}
+
+.request-status.approved {
+    background: #edf8f0;
+    color: #2e7d32;
+}
+
+.request-status.delivered {
+    background: #e9f5ff;
+    color: #2670a8;
+}
+
+.request-status.rejected {
+    background: #fff0ed;
+    color: #c94b32;
+}
+
+
+/* ================================
+   Prevent accidental heading styling
+================================ */
+
+.my-requests-header h1::before,
+.my-requests-header h1::after,
+.requests-section-header h2::before,
+.requests-section-header h2::after {
+    display: none !important;
+    content: none !important;
+}
+
+
+/* ================================
+   Responsive - Tablet
+================================ */
+
+@media (max-width: 1100px) {
+
+    .request-summary {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .request-row {
+        grid-template-columns: 55px minmax(0, 1fr) 100px;
+    }
+
+    .request-status {
+        grid-column: 3;
+    }
+}
+
+
+/* ================================
+   Responsive - Smaller Screens
+================================ */
+
+@media (max-width: 900px) {
+
+    .my-requests-header {
+        gap: 15px;
+    }
+
+    .request-summary {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .request-row {
+        grid-template-columns: 55px minmax(0, 1fr);
+        gap: 15px;
+    }
+
+    .request-quantity,
+    .request-status {
+        grid-column: 2;
+    }
+
+    .request-status {
+        justify-self: start;
+    }
+}
+
+
+/* ================================
+   Mobile
+================================ */
+
+@media (max-width: 600px) {
+
+    .my-requests-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .my-requests-header h1 {
+        font-size: 24px;
+    }
+
+    .my-requests-header p {
+        font-size: 14px;
+    }
+
+    .find-food-btn {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .request-summary {
+        grid-template-columns: 1fr;
+    }
+
+    .request-summary-card {
+        padding: 16px;
+    }
+
+    .requests-section {
+        padding: 16px;
+    }
+
+    .requests-section-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .requests-section-header select {
+        width: 100%;
+    }
+
+    .request-row {
+        grid-template-columns: 50px minmax(0, 1fr);
+        gap: 12px;
+    }
+
+    .request-food-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 22px;
+    }
+
+    .request-food-info h3 {
+        font-size: 15px;
+    }
+
+    .request-food-info p {
+        font-size: 12px;
+    }
+
+    .request-quantity,
+    .request-status {
+        grid-column: 1 / -1;
+    }
+
+    .request-status {
+        justify-self: start;
+    }
+}
+
+
+/* ================================
+   Very Small Mobile
+================================ */
+
+@media (max-width: 400px) {
+
+    .my-requests-header h1 {
+        font-size: 22px;
+    }
+
+    .request-summary-card {
+        padding: 14px;
+    }
+
+    .request-summary-card h3 {
+        font-size: 21px;
+    }
+
+    .requests-section {
+        padding: 14px;
+    }
+}
